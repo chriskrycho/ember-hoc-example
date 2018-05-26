@@ -1,56 +1,25 @@
 # ember-hoc-example
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A small Ember.js app to go with the blog post, ["Higher-Order Components in Ember.js"](https://www.chriskrycho.com/2018/higher-order-components-in-ember-js).
 
-## Prerequisites
-
-You will need the following things properly installed on your computer.
+To see the app, you'll need the normal Ember prerequisites:
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with npm)
 * [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
 
-## Installation
+Get the app:
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/chriskrycho/ember-hoc-example`
 * `cd ember-hoc-example`
-* `npm install`
+* `yarn`
 
-## Running / Development
+Then run it:
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
-### Code Generators
+You should see something like this:
 
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+(To see the *nicest* version, run it in Safari, or enable the Experimental Features flag in Chrome.)
