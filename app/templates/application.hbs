@@ -1,3 +1,27 @@
-<h2 id="title">Welcome to Ember</h2>
+{{#if showModal}}
+  {{#x-modal
+      button=(component 'x-button'
+        label='Close modal!'
+        onClick=(action 'hideIt')
+      )
+      as |modal|
+  }}
+    {{#modal.section}}
+      Here is some content!
+    {{/modal.section}}
 
-{{outlet}}
+    {{#modal.section}}
+      Here is some other content.
+    {{/modal.section}}
+
+    {{#modal.section}}
+      <p>The content can have its own sections, as you'd expect!</p>
+      <p>Nothing crazy going on here. Just a normal template!</p>
+    {{/modal.section}}
+  {{/x-modal}}
+{{/if}}
+
+<button class='button' {{action 'showIt'}}>Show modal</button>
+
+<p>Lorem ipsum dolor sit amet consectetur adipiscing elit luctus, nibh augue a quisque elementum vivamus litora arcu, per vestibulum cras lacinia sociosqu sollicitudin dapibus. Tempus conubia quis lacinia nisl viverra porta odio tellus vulputate per luctus eleifend ornare, habitant platea tincidunt risus bibendum phasellus cursus pellentesque in lobortis penatibus. Aliquet eu torquent et id massa aliquam erat ut, pulvinar aenean porta semper cum cursus nisl sem, nascetur duis enim praesent platea scelerisque vestibulum. Cras odio dictum praesent volutpat bibendum aliquam phasellus semper urna himenaeos eu, conubia quis mattis elementum molestie natoque rhoncus egestas sociis. Convallis ac turpis pulvinar et sem venenatis suspendisse, condimentum cubilia dui cursus a torquent justo hac, nisi molestie auctor leo malesuada ad. Nisl posuere netus ornare faucibus litora rutrum felis odio accumsan, donec commodo eu class tristique condimentum iaculis parturient eget, in taciti metus nascetur potenti vel nam dictumst. Lobortis auctor nascetur curae neque purus diam class integer, duis nostra orci congue vivamus in mus viverra nisi, himenaeos aliquam sapien parturient imperdiet felis velit.</p>
+<p>Per lacus massa primis molestie elementum erat a platea vestibulum, eget sapien et varius sagittis nam dignissim viverra vulputate, habitasse facilisi curae fames maecenas aptent dis mollis. Dis fringilla pretium mollis fermentum nullam auctor porta litora facilisi, proin senectus rhoncus ullamcorper hendrerit nostra tempus libero, sem ut purus tellus nascetur id tincidunt erat. Lacinia platea venenatis nisl sociosqu hac urna nibh ultricies, odio laoreet rhoncus mauris eros tortor lectus at, nec fermentum pellentesque enim tellus netus rutrum. In quis netus purus auctor massa lobortis non platea posuere scelerisque, senectus integer donec neque ante metus varius arcu feugiat. Class dis sagittis aliquam nostra ad fermentum suscipit nascetur tristique molestie pulvinar, viverra nisi aliquet placerat a parturient maecenas pellentesque dapibus urna facilisi, nec curabitur malesuada interdum praesent quisque cras feugiat taciti tempor. Hac eu quisque litora sociis faucibus pretium massa phasellus curae inceptos justo, nunc luctus parturient sagittis neque iaculis velit sem cubilia. Eget cum sed facilisi integer class vel suscipit, ac quisque nostra auctor quam inceptos, sapien morbi aenean posuere platea pellentesque.</p>
