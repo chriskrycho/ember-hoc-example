@@ -22,6 +22,6 @@ Then run it:
 
 You should see something like this:
 
-![a modal with sectioned text and a close button](http://cdn.chriskrycho.com/images/hoc-rendered.png)
+![a modal with sectioned text and a close button](https://f001.backblazeb2.com/file/chriskrycho-com/images/hoc-rendered.png)
 
 (To see the *nicest* version, run it in Safari, or enable the Experimental Features flag in Chrome.)
